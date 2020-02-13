@@ -1,0 +1,18 @@
+<!--
+        <h1>{{ wrozby[luckyNumber].work }}</h1>
+        <p>Dodatkowo: {{ wrozby[luckyNumber].luck }}</p>
+        <p>Ponadto: {{ wrozby[luckyNumber].love}}</p>
+        <p>A do tego: {{wrozby[luckyNumber].scary}}</p>
+
+
+    {% for wrozba in wrozby %}
+        <h1>{{ wrozba.work }}</h1>
+        <p>Dodatkowo: {{ wrozba.luck }}</p>
+        <p>Ponadto: {{ wrozba.love}}</p>
+        <p>A do tego: {{wrozba.scary}}</p>
+    {% endfor %}
+
+    {% for wrozba in work %}
+    <p> {{ wrozba }}</p>
+    {% endfor %}
+-->
